@@ -141,7 +141,7 @@
         component.parseOptions();
 
         //Sets a selected option
-        component.select.val(this.model);
+        component.select.val(component.model);
 
         //On select change emit the new value
         component.select.on("change", function () {
